@@ -1,0 +1,115 @@
+.products {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 25px;
+  border: 1px solid rgba(154, 154, 154, 0.098);
+  border-radius: 10px;
+  padding: 20px 10px;
+  font-size: 13px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Montserrat", serif;
+}
+
+.products h4 {
+  font-weight: 800;
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.ps {
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 2px 7px;
+  color: aliceblue;
+}
+.products div {
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.products div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+.products div div p {
+  margin: 0px;
+}
+.totals {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.totals h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.totals p {
+  margin: 0px;
+  font-size: 11px;
+}
+.links img {
+  width: 60px;
+  transition: all 1s;
+}
+
+.links img:hover {
+  transition: all 1s;
+  transform: scale(1.3);
+}
+
+.buttons button {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-radius: 5px;
+  border: 0;
+  margin: 0 5px;
+  transition: all 0.5s;
+}
+
+.buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.498);
+  transition: all 0.5s;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.totalsPrice {
+  background-color: rgba(3, 3, 3, 0.062);
+  color: rgb(0, 0, 0);
+}
+
+.especificacion {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.especificacion p {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.347);
+  margin: 0;
+}
+.linksPay {
+  text-decoration: none;
+  background-color: black;
+  color: aliceblue;
+  width: 300px;
+  text-align: center;
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-weight: 700;
+}
