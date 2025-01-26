@@ -4,7 +4,6 @@ import ProductCard from "./ProductCard";
 import styles from "./ProductList.module.css";
 import { useState } from "react";
 import SearchBar from "./SearchBar";
-import Filters from "./filters";
 import { Link } from "react-router-dom";
 
 export default function ProductList({ addToBag }) {
@@ -42,7 +41,7 @@ export default function ProductList({ addToBag }) {
             />
           ))
         ) : (
-          <p>No se encontraron productos</p>
+          <p>No se encontraron productos :</p>
         )}
       </div>
     </div>
