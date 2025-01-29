@@ -35,8 +35,8 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  width: 64vw;
-  align-items: first baseline;
+  width: 1000px;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -50,5 +50,6 @@
 
 .LinkStyle:hover {
   color: rgb(2, 134, 77);
+  font-size: 13px;
   transition: all 1s;
 }
