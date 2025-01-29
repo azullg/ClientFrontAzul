@@ -25,12 +25,7 @@ export default function ProductList({ addToBag }) {
         </Link>
         <SearchBar value={searchTerm} onChange={handleSearchChange} />
       </div>
-      <di>
-        <p>
-          Más de 20,000 productos para el hogar, diseñados para satisfacer todas
-          tus necesidades.
-        </p>
-      </di>
+
       <div className={styles.ContainerList}>
         {filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
